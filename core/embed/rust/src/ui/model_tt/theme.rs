@@ -28,18 +28,18 @@ pub const WHITE: Color = Color::rgb(0xFF, 0xFF, 0xFF);
 pub const BLACK: Color = Color::rgb(0, 0, 0);
 pub const FG: Color = WHITE; // Default foreground (text & icon) color.
 pub const BG: Color = BLACK; // Default background color.
-pub const RED: Color = Color::rgb(0xCD, 0x49, 0x49); // dark-coral
-pub const RED_DARK: Color = Color::rgb(0xA6, 0x2D, 0x2D);
-pub const YELLOW: Color = Color::rgb(0xC1, 0x90, 0x09); // ochre
-pub const YELLOW_DARK: Color = Color::rgb(0x9A, 0x73, 0x06); // FIXME
-pub const GREEN: Color = Color::rgb(0x39, 0xA8, 0x14); // grass-green
-pub const GREEN_DARK: Color = Color::rgb(0x10, 0xAB, 0x57);
+pub const RED: Color = Color::rgb(0xE8, 0x00, 0x00); // dark-coral
+pub const RED_DARK: Color = Color::rgb(0xA1, 0x00, 0x00);
+pub const YELLOW: Color = Color::rgb(0xF7, 0xBF, 0x2F); // ochre
+pub const YELLOW_DARK: Color = Color::rgb(0xE2, 0xA5, 0x08); // FIXME
+pub const GREEN: Color = Color::rgb(0x00, 0xAE, 0x0B); // grass-green
+pub const GREEN_DARK: Color = Color::rgb(0x00, 0xA0, 0x0A);
 pub const BLUE: Color = Color::rgb(0, 0x56, 0xBE); // blue
 pub const BLUE_DARK: Color = Color::rgb(0, 0x44, 0x98); // FIXME
 pub const OFF_WHITE: Color = Color::rgb(0xDE, 0xDE, 0xDE); // very light grey
 pub const GREY_LIGHT: Color = Color::rgb(0xA8, 0xA8, 0xA8); // greyish
-pub const GREY_MEDIUM: Color = Color::rgb(0x64, 0x64, 0x64);
-pub const GREY_DARK: Color = Color::rgb(0x33, 0x33, 0x33); // greyer
+pub const GREY_MEDIUM: Color = Color::rgb(0x60, 0x60, 0x60);
+pub const GREY_DARK: Color = Color::rgb(0x24, 0x24, 0x24); // greyer
 pub const VIOLET: Color = Color::rgb(0x9E, 0x27, 0xD6);
 
 // Commonly used corner radius (i.e. for buttons).
